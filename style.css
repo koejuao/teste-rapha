@@ -1,0 +1,244 @@
+/* Estilos Gerais */
+
+body {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.btn {
+  display: flex;
+  	font-weight: bold; 
+  justify-content: center;
+  background: #7A0000;
+  line-height: 30px;
+  width: 100px;
+  padding: 10px;
+  text-decoration:none;
+  color: #fff;
+  border-radius: 30px;
+  float:left;
+  transition: all .5s ease;
+
+
+ }
+ .btn2{
+
+ 	width: 150px;
+ 	margin-right: 5px;
+ 	font-weight: bold; 
+ }
+
+.btn3{
+
+  font-weight: bold; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: #000;
+  line-height: 30px;
+  width: 100px;
+  padding: 10px;
+  text-decoration:none;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 25px;
+  transition: all .5s ease;
+}
+
+
+.btn:hover {
+	color: white;
+    background: #FEF24A;
+}
+.btn3:hover {
+	color: white;
+    background:#DE327A;
+}
+
+
+/* Header */
+.container{
+	background:none;
+}
+
+.header {
+	position:absolute;
+	top: 0;
+	width: 100%;
+	padding: 15px 0;
+	z-index: 10;
+
+}
+
+.header_menu {
+	text-align: right;
+
+}
+
+.header_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header_menu ul li {
+	display: inline;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.header_menu ul li a {
+	color: #B60101;
+	font-weight: bold;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+.header_menu ul li a:hover {
+	color: #FEF24A;
+}
+
+/* intro */
+
+.introducao {
+	width: 100%;
+	height: 850px;
+	background: url("../img/salada.jpg") repeat center;
+	background-size: cover;
+	display: block;
+
+	
+	
+}
+
+.introducao h1 {
+	font-size:58px;
+	color: #B60101;
+	font-weight: bold;
+	max-width: 400px;
+	padding-top: 120px;
+
+}
+
+.quote-externo {
+	max-width: 300px;
+	margin-bottom: 50px;
+	margin-top: 35px;
+}
+
+.quote-externo p {
+	font-style: italic;
+	color: #B60101;
+	font-size: 14px;
+
+
+
+}
+
+.quote-externo cite {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	letter-spacing: .1em;
+}
+
+.subtitulo{
+	font-size: 36px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #DE327A;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+
+/*Produtos*/
+
+.produtos{
+	padding: 60px 0;
+}
+
+.texto{
+	font-size: 14px;
+	font-weight: bold;
+    padding-bottom: 10px;
+	text-align: center;
+	  max-width: 450px;
+	  align-items: center;
+	  margin: 0 auto;
+	  color:#000;
+
+}
+
+.produtos_icone  {
+  float: left;
+  padding-top: 10px;
+  color: #DE327A;
+  font-size: 25px;
+ 
+ }
+
+  .txt {
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 11px;
+ 
+}
+
+
+ 
+
+
+
+.produtos_lista li{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px 5px 5px 5px;
+	align-items: center;
+	margin-left:  150px;
+   
+
+}
+
+
+
+
+
+.produtos_lista li p{
+	padding: 10px 10px ;
+
+}
+
+.call{
+	text-align: center;
+	padding-top:40px;
+	clear: both;
+}
+
+.call p{
+	margin-bottom:20px;
+}
+
+.ghost{
+	position:absolute;
+	padding-top: 25px;
+	width: 20px;
+}
